@@ -1,0 +1,118 @@
+
+
+
+body{
+	background-color:#CCFFCC;
+}
+
+#navpanel ul 
+{	font-family:bold;
+	display:inline-block;
+	margin:0px;
+	list-style:none;
+	/*text-decoration:none;
+	color:green;
+	background-color:white;
+	padding;0px 0px 0px 0px;
+	*/
+}
+#navpanel ul li{
+	margin:0px;
+	background-color:#0099FF;
+	width:150px;
+	border:1px solid white;
+	padding:5px;
+	height:50px;
+	float:left;
+	position: relative;
+	z-index:100;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:15px;
+	line-height:50px;
+	
+}
+#navpanel ul li ul{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	display:none;
+}
+
+#navpanel ul li:hover {
+	background-color:#000099;
+	
+}
+#navpanel ul li:hover >ul{
+	display:block;
+	
+}
+
+#parastart{
+margin-top:70px;
+}
+.blue {
+	color:red;
+}
+.ac
+{
+	background-color:#278;
+	padding:30px;
+
+	}
+#acw{
+	color:blue;
+	font-size:50px;
+	padding:5px 5px 5px 5px;
+	
+}
+#sp{
+	text-decoration:none;
+	color:green;
+}
+.all{
+	text-decoration:none;
+	color:white;
+}
+#mark{
+	margin:0px;
+	font-size:50px;
+	color:#FF9900;
+}
+#notices{
+	background-color:gray;
+
+}
+#boxaud{width:500px;
+      margin:0 auto 0 auto;
+      padding:5px;
+      border:0px;
+	 background-image:url("abst3.jpg"); 
+}
+
+
+.box{width:800px;
+      margin:0 auto 0 auto;
+      padding:5px;
+      border:1px solid #999;
+      background-image:url("abst2.jpg"); 
+}
+
+#adm-for-administration {
+	width:960px;
+      margin:0 auto;
+      padding:10px 25px;
+      border:2px solid #ccc;
+      background-image: url("abstract.jpg"); 
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
